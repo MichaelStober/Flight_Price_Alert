@@ -1,0 +1,761 @@
+2022-03-11 19:37:49.284798
+fs.get_iataCode() LON
+
+dm.get_prices()
+Google Sheet data:
+         city iataCode  lowestPrice  id
+        Paris      PAR           54   2
+       Berlin      BER           42   3
+        Tokyo      TYO          485   4
+       Sydney      SYD          551   5
+     Istanbul      IST           95   6
+ Kuala Lumpur      KUL          414   7
+     New York      NYC          240   8
+San Francisco      SFO          260   9
+    Cape Town      CPT          378  10
+
+fs.get_flight_to()
+{
+    "id": "18ff25c34abd00008f0d438f_0|25c322f54ad600007eb56256_0",
+    "flyFrom": "LTN",
+    "flyTo": "CDG",
+    "cityFrom": "London",
+    "cityCodeFrom": "LON",
+    "cityTo": "Paris",
+    "cityCodeTo": "PAR",
+    "countryFrom": {
+        "code": "GB",
+        "name": "United Kingdom"
+    },
+    "countryTo": {
+        "code": "FR",
+        "name": "France"
+    },
+    "type_flights": [
+        "deprecated"
+    ],
+    "nightsInDest": 25,
+    "quality": 111.99989,
+    "distance": 380,
+    "duration": {
+        "departure": 4800,
+        "return": 4200,
+        "total": 9000
+    },
+    "price": 68,
+    "conversion": {
+        "EUR": 68
+    },
+    "fare": {
+        "adults": 68,
+        "children": 68,
+        "infants": 68
+    },
+    "bags_price": {
+        "1": 91,
+        "2": 182
+    },
+    "baglimit": {
+        "hand_height": 36,
+        "hand_length": 45,
+        "hand_weight": 15,
+        "hand_width": 20,
+        "hold_dimensions_sum": 275,
+        "hold_height": 90,
+        "hold_length": 135,
+        "hold_weight": 15,
+        "hold_width": 50
+    },
+    "availability": {
+        "seats": 3
+    },
+    "routes": [
+        [
+            "LTN",
+            "CDG"
+        ],
+        [
+            "CDG",
+            "LGW"
+        ]
+    ],
+    "airlines": [
+        "U2"
+    ],
+    "route": [
+        {
+            "id": "18ff25c34abd00008f0d438f_0",
+            "combination_id": "18ff25c34abd00008f0d438f",
+            "flyFrom": "LTN",
+            "flyTo": "CDG",
+            "cityFrom": "London",
+            "cityCodeFrom": "LON",
+            "cityTo": "Paris",
+            "cityCodeTo": "PAR",
+            "airline": "U2",
+            "flight_no": 2433,
+            "operating_carrier": "EC",
+            "operating_flight_no": "",
+            "fare_basis": "",
+            "fare_category": "M",
+            "fare_classes": "",
+            "fare_family": "",
+            "return": 0,
+            "bags_recheck_required": false,
+            "vi_connection": false,
+            "guarantee": false,
+            "last_seen": "2022-03-11T18:10:49.000Z",
+            "refresh_timestamp": "2022-03-11T18:10:49.000Z",
+            "equipment": null,
+            "vehicle_type": "aircraft",
+            "local_arrival": "2022-05-21T17:05:00.000Z",
+            "utc_arrival": "2022-05-21T15:05:00.000Z",
+            "local_departure": "2022-05-21T14:45:00.000Z",
+            "utc_departure": "2022-05-21T13:45:00.000Z"
+        },
+        {
+            "id": "25c322f54ad600007eb56256_0",
+            "combination_id": "25c322f54ad600007eb56256",
+            "flyFrom": "CDG",
+            "flyTo": "LGW",
+            "cityFrom": "Paris",
+            "cityCodeFrom": "PAR",
+            "cityTo": "London",
+            "cityCodeTo": "LON",
+            "airline": "U2",
+            "flight_no": 8322,
+            "operating_carrier": "EC",
+            "operating_flight_no": "",
+            "fare_basis": "",
+            "fare_category": "M",
+            "fare_classes": "",
+            "fare_family": "",
+            "return": 1,
+            "bags_recheck_required": false,
+            "vi_connection": false,
+            "guarantee": false,
+            "last_seen": "2022-03-11T17:51:56.000Z",
+            "refresh_timestamp": "2022-03-11T17:51:56.000Z",
+            "equipment": null,
+            "vehicle_type": "aircraft",
+            "local_arrival": "2022-06-15T07:25:00.000Z",
+            "utc_arrival": "2022-06-15T06:25:00.000Z",
+            "local_departure": "2022-06-15T07:15:00.000Z",
+            "utc_departure": "2022-06-15T05:15:00.000Z"
+        }
+    ],
+    "booking_token": "Dz4N4-ObiTLLDaBlUmhjOpMQeAHVY_USYyUG7J2xGMVFvQ2L-OIixyNPig0SJIG5YSFzUaLIcQfiK-h-3dTt6NrhadZ2NXGPfOWnlP6Gz5Wv_YcjdKzqF2ko-auiZi1nUBoLHN3aj_IqwO0_liZWE2bLf87FEILWl3h2NGYOeBYJ6IbIggltHLXRHtEf9tSTdODis7-kJphh08Jmlva6C3V_KynDVQKn0t1Z-2lN6LV8Cz4x2M-KZeQGaK3mqZfNeK13ahPGkzyecztJ3MOHoxI2APyvVMS4heMJWziX8P2YccJTPiGP7NAxVL3sOmEm59t_szn0BXcVKehdOrjeUDDO4RNjhgqDFQ4jzT2if8_oLKb-nmxUT0YDZuzziHUASN90Ssx1Y2pL_taATCRbMj8qnt3O3I_5qBIK83qG9K1Mla5zofImTst4xXQUoZQzZXV_KYxJx8G1FFP2VKPG_9A==",
+    "deep_link": "https://www.kiwi.com/deep?from=LTN&to=CDG&flightsId=18ff25c34abd00008f0d438f_0%7C25c322f54ad600007eb56256_0&price=68&passengers=1&affilid=mikestobrflightsearch&lang=en&currency=EUR&booking_token=Dz4N4-ObiTLLDaBlUmhjOpMQeAHVY_USYyUG7J2xGMVFvQ2L-OIixyNPig0SJIG5YSFzUaLIcQfiK-h-3dTt6NrhadZ2NXGPfOWnlP6Gz5Wv_YcjdKzqF2ko-auiZi1nUBoLHN3aj_IqwO0_liZWE2bLf87FEILWl3h2NGYOeBYJ6IbIggltHLXRHtEf9tSTdODis7-kJphh08Jmlva6C3V_KynDVQKn0t1Z-2lN6LV8Cz4x2M-KZeQGaK3mqZfNeK13ahPGkzyecztJ3MOHoxI2APyvVMS4heMJWziX8P2YccJTPiGP7NAxVL3sOmEm59t_szn0BXcVKehdOrjeUDDO4RNjhgqDFQ4jzT2if8_oLKb-nmxUT0YDZuzziHUASN90Ssx1Y2pL_taATCRbMj8qnt3O3I_5qBIK83qG9K1Mla5zofImTst4xXQUoZQzZXV_KYxJx8G1FFP2VKPG_9A==",
+    "facilitated_booking_available": true,
+    "pnr_count": 2,
+    "has_airport_change": false,
+    "technical_stops": 0,
+    "throw_away_ticketing": false,
+    "hidden_city_ticketing": false,
+    "virtual_interlining": true,
+    "transfers": [],
+    "local_arrival": "2022-05-21T17:05:00.000Z",
+    "utc_arrival": "2022-05-21T15:05:00.000Z",
+    "local_departure": "2022-05-21T14:45:00.000Z",
+    "utc_departure": "2022-05-21T13:45:00.000Z"
+}
+
+fs.get_flight_to()
+{
+    "id": "032d00424aa60000fb311fcd_0|0042032d4aba0000e5f79e71_0",
+    "flyFrom": "STN",
+    "flyTo": "BER",
+    "cityFrom": "London",
+    "cityCodeFrom": "LON",
+    "cityTo": "Berlin",
+    "cityCodeTo": "BER",
+    "countryFrom": {
+        "code": "GB",
+        "name": "United Kingdom"
+    },
+    "countryTo": {
+        "code": "DE",
+        "name": "Germany"
+    },
+    "type_flights": [
+        "deprecated"
+    ],
+    "nightsInDest": 20,
+    "quality": 93.666535,
+    "distance": 907.07,
+    "duration": {
+        "departure": 6300,
+        "return": 6600,
+        "total": 12900
+    },
+    "price": 41,
+    "conversion": {
+        "EUR": 41
+    },
+    "fare": {
+        "adults": 41,
+        "children": 41,
+        "infants": 41
+    },
+    "bags_price": {
+        "1": 62.7,
+        "2": 125.4
+    },
+    "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 10,
+        "hand_width": 20,
+        "hold_dimensions_sum": 319,
+        "hold_height": 119,
+        "hold_length": 119,
+        "hold_weight": 20,
+        "hold_width": 81,
+        "personal_item_height": 25,
+        "personal_item_length": 40,
+        "personal_item_weight": 10,
+        "personal_item_width": 20
+    },
+    "availability": {
+        "seats": 6
+    },
+    "routes": [
+        [
+            "STN",
+            "BER"
+        ],
+        [
+            "BER",
+            "STN"
+        ]
+    ],
+    "airlines": [
+        "FR"
+    ],
+    "route": [
+        {
+            "id": "032d00424aa60000fb311fcd_0",
+            "combination_id": "032d00424aa60000fb311fcd",
+            "flyFrom": "STN",
+            "flyTo": "BER",
+            "cityFrom": "London",
+            "cityCodeFrom": "LON",
+            "cityTo": "Berlin",
+            "cityCodeTo": "BER",
+            "airline": "FR",
+            "flight_no": 145,
+            "operating_carrier": "",
+            "operating_flight_no": "",
+            "fare_basis": "",
+            "fare_category": "M",
+            "fare_classes": "",
+            "fare_family": "",
+            "return": 0,
+            "bags_recheck_required": false,
+            "vi_connection": false,
+            "guarantee": false,
+            "last_seen": "2022-03-11T17:51:50.000Z",
+            "refresh_timestamp": "2022-03-11T17:51:50.000Z",
+            "equipment": null,
+            "vehicle_type": "aircraft",
+            "local_arrival": "2022-04-28T10:40:00.000Z",
+            "utc_arrival": "2022-04-28T08:40:00.000Z",
+            "local_departure": "2022-04-28T07:55:00.000Z",
+            "utc_departure": "2022-04-28T06:55:00.000Z"
+        },
+        {
+            "id": "0042032d4aba0000e5f79e71_0",
+            "combination_id": "0042032d4aba0000e5f79e71",
+            "flyFrom": "BER",
+            "flyTo": "STN",
+            "cityFrom": "Berlin",
+            "cityCodeFrom": "BER",
+            "cityTo": "London",
+            "cityCodeTo": "LON",
+            "airline": "FR",
+            "flight_no": 8545,
+            "operating_carrier": "",
+            "operating_flight_no": "",
+            "fare_basis": "",
+            "fare_category": "M",
+            "fare_classes": "",
+            "fare_family": "",
+            "return": 1,
+            "bags_recheck_required": false,
+            "vi_connection": false,
+            "guarantee": false,
+            "last_seen": "2022-03-11T15:37:22.000Z",
+            "refresh_timestamp": "2022-03-11T15:37:22.000Z",
+            "equipment": null,
+            "vehicle_type": "aircraft",
+            "local_arrival": "2022-05-18T12:30:00.000Z",
+            "utc_arrival": "2022-05-18T11:30:00.000Z",
+            "local_departure": "2022-05-18T11:40:00.000Z",
+            "utc_departure": "2022-05-18T09:40:00.000Z"
+        }
+    ],
+    "booking_token": "D-MrQhBwiCeatloqR1OisicUTwV7xoKx6WS2-UxrTMYgeS_2hUcarIvRlPzHsNzRgjtLeXpzkACxJx2z5613sfliaBAhTXuotz41ITroHytIu0lW8u1At0jO59EiSFKZw5bLTIXYb0JQBNHhedcDPlD6OyMEmmkwzDRO14mhZ4p9YJ4zauKbwFNTScIeTQlJ0EU_dKH_eECigXW7cefBQ9nrMF-KRm3QQVtcwQVCSEtJdDK_mF_tSdSyvihJ-ZsnY_maxrd_IMbLUIhcFm1_yGoTDd_c8btqaSwdLfOiF-XqzviMrilm6f_-Bid1WaRQIWjzxJjxJ8Rujm7BPkTnekVpFz65Cg6pFxnZciHBOj55B9AESnMMZc9cra47VbKnvaPjzzFgQm-3l2f_Cl8Z8X9EFjjfzZvbGT98AvX1tHfzKAabzdq_NQHdebBIA_BGK",
+    "deep_link": "https://www.kiwi.com/deep?from=STN&to=BER&flightsId=032d00424aa60000fb311fcd_0%7C0042032d4aba0000e5f79e71_0&price=41&passengers=1&affilid=mikestobrflightsearch&lang=en&currency=EUR&booking_token=D-MrQhBwiCeatloqR1OisicUTwV7xoKx6WS2-UxrTMYgeS_2hUcarIvRlPzHsNzRgjtLeXpzkACxJx2z5613sfliaBAhTXuotz41ITroHytIu0lW8u1At0jO59EiSFKZw5bLTIXYb0JQBNHhedcDPlD6OyMEmmkwzDRO14mhZ4p9YJ4zauKbwFNTScIeTQlJ0EU_dKH_eECigXW7cefBQ9nrMF-KRm3QQVtcwQVCSEtJdDK_mF_tSdSyvihJ-ZsnY_maxrd_IMbLUIhcFm1_yGoTDd_c8btqaSwdLfOiF-XqzviMrilm6f_-Bid1WaRQIWjzxJjxJ8Rujm7BPkTnekVpFz65Cg6pFxnZciHBOj55B9AESnMMZc9cra47VbKnvaPjzzFgQm-3l2f_Cl8Z8X9EFjjfzZvbGT98AvX1tHfzKAabzdq_NQHdebBIA_BGK",
+    "facilitated_booking_available": false,
+    "pnr_count": 2,
+    "has_airport_change": false,
+    "technical_stops": 0,
+    "throw_away_ticketing": false,
+    "hidden_city_ticketing": false,
+    "virtual_interlining": true,
+    "transfers": [],
+    "local_arrival": "2022-04-28T10:40:00.000Z",
+    "utc_arrival": "2022-04-28T08:40:00.000Z",
+    "local_departure": "2022-04-28T07:55:00.000Z",
+    "utc_departure": "2022-04-28T06:55:00.000Z"
+}
+
+fs.get_flight_to()
+{
+    "id": "0f6403724ad94af429ed3ec9_0|0f6403724ad94af429ed3ec9_1",
+    "flyFrom": "LHR",
+    "flyTo": "SYD",
+    "cityFrom": "London",
+    "cityCodeFrom": "LON",
+    "cityTo": "Sydney",
+    "cityCodeTo": "SYD",
+    "countryFrom": {
+        "code": "GB",
+        "name": "United Kingdom"
+    },
+    "countryTo": {
+        "code": "AU",
+        "name": "Australia"
+    },
+    "type_flights": [
+        "deprecated"
+    ],
+    "nightsInDest": 25,
+    "quality": 1630.999005,
+    "distance": 17038.96,
+    "duration": {
+        "departure": 83100,
+        "return": 85200,
+        "total": 168300
+    },
+    "price": 1233,
+    "conversion": {
+        "EUR": 1233
+    },
+    "fare": {
+        "adults": 1233,
+        "children": 1233,
+        "infants": 1233
+    },
+    "bags_price": {
+        "1": 0
+    },
+    "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 23,
+        "hold_width": 28,
+        "personal_item_height": 30,
+        "personal_item_length": 40,
+        "personal_item_weight": 5,
+        "personal_item_width": 10
+    },
+    "availability": {
+        "seats": null
+    },
+    "routes": [
+        [
+            "LHR",
+            "SYD"
+        ],
+        [
+            "SYD",
+            "LHR"
+        ]
+    ],
+    "airlines": [
+        "QF"
+    ],
+    "route": [
+        {
+            "id": "0f6403724ad94af429ed3ec9_0",
+            "combination_id": "0f6403724ad94af429ed3ec9",
+            "flyFrom": "LHR",
+            "flyTo": "SYD",
+            "cityFrom": "London",
+            "cityCodeFrom": "LON",
+            "cityTo": "Sydney",
+            "cityCodeTo": "SYD",
+            "airline": "QF",
+            "flight_no": 2,
+            "operating_carrier": "QF",
+            "operating_flight_no": "2",
+            "fare_basis": "OLGB",
+            "fare_category": "M",
+            "fare_classes": "O",
+            "fare_family": "",
+            "return": 0,
+            "bags_recheck_required": false,
+            "vi_connection": false,
+            "guarantee": false,
+            "last_seen": "2022-03-11T09:11:17.000Z",
+            "refresh_timestamp": "2022-03-11T09:11:17.000Z",
+            "equipment": null,
+            "vehicle_type": "aircraft",
+            "local_arrival": "2022-06-20T05:10:00.000Z",
+            "utc_arrival": "2022-06-19T19:10:00.000Z",
+            "local_departure": "2022-06-18T21:05:00.000Z",
+            "utc_departure": "2022-06-18T20:05:00.000Z"
+        },
+        {
+            "id": "0f6403724ad94af429ed3ec9_1",
+            "combination_id": "0f6403724ad94af429ed3ec9",
+            "flyFrom": "SYD",
+            "flyTo": "LHR",
+            "cityFrom": "Sydney",
+            "cityCodeFrom": "SYD",
+            "cityTo": "London",
+            "cityCodeTo": "LON",
+            "airline": "QF",
+            "flight_no": 1,
+            "operating_carrier": "",
+            "operating_flight_no": "",
+            "fare_basis": "OLGB",
+            "fare_category": "M",
+            "fare_classes": "O",
+            "fare_family": "",
+            "return": 1,
+            "bags_recheck_required": false,
+            "vi_connection": false,
+            "guarantee": false,
+            "last_seen": "2022-03-11T09:11:17.000Z",
+            "refresh_timestamp": "2022-03-11T09:11:17.000Z",
+            "equipment": null,
+            "vehicle_type": "aircraft",
+            "local_arrival": "2022-07-16T06:35:00.000Z",
+            "utc_arrival": "2022-07-16T05:35:00.000Z",
+            "local_departure": "2022-07-15T15:55:00.000Z",
+            "utc_departure": "2022-07-15T05:55:00.000Z"
+        }
+    ],
+    "booking_token": "DHW74N_zvU65Dx9cIyzyhjn_oHZH5r443u2iusiPSsdPujxmLFJIe8V5VgIPR5coPKuE9d86Zb6m7eD6QLSBXBD2ZKYDq87tfiSxu28rEhVL-d30T5rhPYU9gZ43xxCMQJJae3AsgEUnanMp_-COl5E8kwJRflVP77XF52YyHFERT9QGC3YrxqZYwzf27G2uVv33dOit6IEpyexuAp9eGzMtoKtf547a4VCBfEwZTPyJ2b7HEwAH7efHJo4o69v4PkEls1uoLxERFi2zd4imCbF05Vx6S8WHWDQh4b3nSQzBfKdeslJxOErsHSo1mB-sZKdpJuEbZkcVYOKm5ria4C8JJt6LArZfVU6cEaGZry97lP_65T4JVPUM770WzDfbB893ni9FZFTUMq6sXVBMdS9P6GZALkuc3oDr7MWoMKJLU7hR2U8EAyzeIeSga2OMkVXqn9J41zIARpxyXUgeYpA==",
+    "deep_link": "https://www.kiwi.com/deep?from=LHR&to=SYD&flightsId=0f6403724ad94af429ed3ec9_0%7C0f6403724ad94af429ed3ec9_1&price=1233&passengers=1&affilid=mikestobrflightsearch&lang=en&currency=EUR&booking_token=DHW74N_zvU65Dx9cIyzyhjn_oHZH5r443u2iusiPSsdPujxmLFJIe8V5VgIPR5coPKuE9d86Zb6m7eD6QLSBXBD2ZKYDq87tfiSxu28rEhVL-d30T5rhPYU9gZ43xxCMQJJae3AsgEUnanMp_-COl5E8kwJRflVP77XF52YyHFERT9QGC3YrxqZYwzf27G2uVv33dOit6IEpyexuAp9eGzMtoKtf547a4VCBfEwZTPyJ2b7HEwAH7efHJo4o69v4PkEls1uoLxERFi2zd4imCbF05Vx6S8WHWDQh4b3nSQzBfKdeslJxOErsHSo1mB-sZKdpJuEbZkcVYOKm5ria4C8JJt6LArZfVU6cEaGZry97lP_65T4JVPUM770WzDfbB893ni9FZFTUMq6sXVBMdS9P6GZALkuc3oDr7MWoMKJLU7hR2U8EAyzeIeSga2OMkVXqn9J41zIARpxyXUgeYpA==",
+    "facilitated_booking_available": true,
+    "pnr_count": 1,
+    "has_airport_change": false,
+    "technical_stops": 0,
+    "throw_away_ticketing": false,
+    "hidden_city_ticketing": false,
+    "virtual_interlining": false,
+    "transfers": [],
+    "local_arrival": "2022-06-20T05:10:00.000Z",
+    "utc_arrival": "2022-06-19T19:10:00.000Z",
+    "local_departure": "2022-06-18T21:05:00.000Z",
+    "utc_departure": "2022-06-18T20:05:00.000Z"
+}
+
+fs.get_flight_to()
+{
+    "id": "032d1db84aa400005be96013_0|1db8032d4ab400005cc8ae4b_0",
+    "flyFrom": "STN",
+    "flyTo": "SAW",
+    "cityFrom": "London",
+    "cityCodeFrom": "LON",
+    "cityTo": "Istanbul",
+    "cityCodeTo": "IST",
+    "countryFrom": {
+        "code": "GB",
+        "name": "United Kingdom"
+    },
+    "countryTo": {
+        "code": "TR",
+        "name": "Turkey"
+    },
+    "type_flights": [
+        "deprecated"
+    ],
+    "nightsInDest": 16,
+    "quality": 253.333115,
+    "distance": 2521.2,
+    "duration": {
+        "departure": 13800,
+        "return": 14700,
+        "total": 28500
+    },
+    "price": 166,
+    "conversion": {
+        "EUR": 166
+    },
+    "fare": {
+        "adults": 166,
+        "children": 166,
+        "infants": 166
+    },
+    "bags_price": {
+        "1": 66.3,
+        "2": 274.3
+    },
+    "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 8,
+        "hand_width": 20,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 20,
+        "hold_width": 28
+    },
+    "availability": {
+        "seats": 4
+    },
+    "routes": [
+        [
+            "STN",
+            "SAW"
+        ],
+        [
+            "SAW",
+            "STN"
+        ]
+    ],
+    "airlines": [
+        "PC"
+    ],
+    "route": [
+        {
+            "id": "032d1db84aa400005be96013_0",
+            "combination_id": "032d1db84aa400005be96013",
+            "flyFrom": "STN",
+            "flyTo": "SAW",
+            "cityFrom": "London",
+            "cityCodeFrom": "LON",
+            "cityTo": "Istanbul",
+            "cityCodeTo": "IST",
+            "airline": "PC",
+            "flight_no": 1162,
+            "operating_carrier": "PC",
+            "operating_flight_no": "1162",
+            "fare_basis": "GWEB/QSI",
+            "fare_category": "M",
+            "fare_classes": "G",
+            "fare_family": "",
+            "return": 0,
+            "bags_recheck_required": false,
+            "vi_connection": false,
+            "guarantee": false,
+            "last_seen": "2022-03-11T17:58:45.000Z",
+            "refresh_timestamp": "2022-03-11T17:58:45.000Z",
+            "equipment": null,
+            "vehicle_type": "aircraft",
+            "local_arrival": "2022-04-26T20:25:00.000Z",
+            "utc_arrival": "2022-04-26T17:25:00.000Z",
+            "local_departure": "2022-04-26T14:35:00.000Z",
+            "utc_departure": "2022-04-26T13:35:00.000Z"
+        },
+        {
+            "id": "1db8032d4ab400005cc8ae4b_0",
+            "combination_id": "1db8032d4ab400005cc8ae4b",
+            "flyFrom": "SAW",
+            "flyTo": "STN",
+            "cityFrom": "Istanbul",
+            "cityCodeFrom": "IST",
+            "cityTo": "London",
+            "cityCodeTo": "LON",
+            "airline": "PC",
+            "flight_no": 1177,
+            "operating_carrier": "PC",
+            "operating_flight_no": "1177",
+            "fare_basis": "PWEB/INT",
+            "fare_category": "M",
+            "fare_classes": "P",
+            "fare_family": "",
+            "return": 1,
+            "bags_recheck_required": false,
+            "vi_connection": false,
+            "guarantee": false,
+            "last_seen": "2022-03-11T14:00:05.000Z",
+            "refresh_timestamp": "2022-03-11T14:00:05.000Z",
+            "equipment": null,
+            "vehicle_type": "aircraft",
+            "local_arrival": "2022-05-12T20:10:00.000Z",
+            "utc_arrival": "2022-05-12T19:10:00.000Z",
+            "local_departure": "2022-05-12T18:05:00.000Z",
+            "utc_departure": "2022-05-12T15:05:00.000Z"
+        }
+    ],
+    "booking_token": "DUYpVXO_LuBuykgFTIfHbCM33i_L8OkyKIh-6_0NCIn7_dAC8ZlU0R1iU6rgeK9bnBe3UN3CpF9HtsR7CV4ceTdp7kabBxqfjYvB-r7SvhOMQjQUOqLqH5AXh3TM2f4s4RxVpgtvs_oLTkIExTQUdY590tBeXA367BR57dSJT3xRgI8F5vBF_97EVUdDUpTi_oG67BPS-67Z7htmRY_h72k6d7Goml3FYTa1sVvCSys6sCjX-g3QDl4d1fbjORscq3imDHwrh2h1FyBcP_Lt7GHHUgYsJ9ER21CfsDaqnMxQbeMIiLXiWLxYAMtYpveSP1KbQ1g9hZ8NVU_yPJ-miVtas_uTRTeCHFlf7mM6LzHTkGpjzCIYQffsFCcq2dySA3WUmeA9LRwupnY9tKfaB70csFp2yfE6wx0lojXi63ddEcxnZC8Vl7IBRh5MavzagNGM8jZ5umzWSoslQYHM9Ng==",
+    "deep_link": "https://www.kiwi.com/deep?from=STN&to=SAW&flightsId=032d1db84aa400005be96013_0%7C1db8032d4ab400005cc8ae4b_0&price=166&passengers=1&affilid=mikestobrflightsearch&lang=en&currency=EUR&booking_token=DUYpVXO_LuBuykgFTIfHbCM33i_L8OkyKIh-6_0NCIn7_dAC8ZlU0R1iU6rgeK9bnBe3UN3CpF9HtsR7CV4ceTdp7kabBxqfjYvB-r7SvhOMQjQUOqLqH5AXh3TM2f4s4RxVpgtvs_oLTkIExTQUdY590tBeXA367BR57dSJT3xRgI8F5vBF_97EVUdDUpTi_oG67BPS-67Z7htmRY_h72k6d7Goml3FYTa1sVvCSys6sCjX-g3QDl4d1fbjORscq3imDHwrh2h1FyBcP_Lt7GHHUgYsJ9ER21CfsDaqnMxQbeMIiLXiWLxYAMtYpveSP1KbQ1g9hZ8NVU_yPJ-miVtas_uTRTeCHFlf7mM6LzHTkGpjzCIYQffsFCcq2dySA3WUmeA9LRwupnY9tKfaB70csFp2yfE6wx0lojXi63ddEcxnZC8Vl7IBRh5MavzagNGM8jZ5umzWSoslQYHM9Ng==",
+    "facilitated_booking_available": true,
+    "pnr_count": 2,
+    "has_airport_change": false,
+    "technical_stops": 0,
+    "throw_away_ticketing": false,
+    "hidden_city_ticketing": false,
+    "virtual_interlining": true,
+    "transfers": [],
+    "local_arrival": "2022-04-26T20:25:00.000Z",
+    "utc_arrival": "2022-04-26T17:25:00.000Z",
+    "local_departure": "2022-04-26T14:35:00.000Z",
+    "utc_departure": "2022-04-26T13:35:00.000Z"
+}
+
+fs.get_flight_to()
+{
+    "id": "0f641cdb4a984aaf816fc32c_0|0f641cdb4a984aaf816fc32c_1",
+    "flyFrom": "LHR",
+    "flyTo": "EWR",
+    "cityFrom": "London",
+    "cityCodeFrom": "LON",
+    "cityTo": "New York",
+    "cityCodeTo": "NYC",
+    "countryFrom": {
+        "code": "GB",
+        "name": "United Kingdom"
+    },
+    "countryTo": {
+        "code": "US",
+        "name": "United States"
+    },
+    "type_flights": [
+        "deprecated"
+    ],
+    "nightsInDest": 23,
+    "quality": 649.99963,
+    "distance": 5567.55,
+    "duration": {
+        "departure": 30000,
+        "return": 25800,
+        "total": 55800
+    },
+    "price": 502,
+    "conversion": {
+        "EUR": 502
+    },
+    "fare": {
+        "adults": 502,
+        "children": 502,
+        "infants": 502
+    },
+    "bags_price": {
+        "1": 165.97,
+        "2": 403.08
+    },
+    "baglimit": {
+        "hand_height": 35,
+        "hand_length": 55,
+        "hand_weight": 13,
+        "hand_width": 22,
+        "hold_dimensions_sum": 157,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 23,
+        "hold_width": 27,
+        "personal_item_height": 25,
+        "personal_item_length": 43,
+        "personal_item_weight": 5,
+        "personal_item_width": 22
+    },
+    "availability": {
+        "seats": 4
+    },
+    "routes": [
+        [
+            "LHR",
+            "EWR"
+        ],
+        [
+            "EWR",
+            "LHR"
+        ]
+    ],
+    "airlines": [
+        "OS",
+        "UA"
+    ],
+    "route": [
+        {
+            "id": "0f641cdb4a984aaf816fc32c_0",
+            "combination_id": "0f641cdb4a984aaf816fc32c",
+            "flyFrom": "LHR",
+            "flyTo": "EWR",
+            "cityFrom": "London",
+            "cityCodeFrom": "LON",
+            "cityTo": "New York",
+            "cityCodeTo": "NYC",
+            "airline": "UA",
+            "flight_no": 15,
+            "operating_carrier": "UA",
+            "operating_flight_no": "15",
+            "fare_basis": "KLP8FLGT",
+            "fare_category": "M",
+            "fare_classes": "K",
+            "fare_family": "",
+            "return": 0,
+            "bags_recheck_required": false,
+            "vi_connection": false,
+            "guarantee": false,
+            "last_seen": "2022-03-11T17:53:15.000Z",
+            "refresh_timestamp": "2022-03-11T17:53:15.000Z",
+            "equipment": null,
+            "vehicle_type": "aircraft",
+            "local_arrival": "2022-04-14T13:20:00.000Z",
+            "utc_arrival": "2022-04-14T17:20:00.000Z",
+            "local_departure": "2022-04-14T10:00:00.000Z",
+            "utc_departure": "2022-04-14T09:00:00.000Z"
+        },
+        {
+            "id": "0f641cdb4a984aaf816fc32c_1",
+            "combination_id": "0f641cdb4a984aaf816fc32c",
+            "flyFrom": "EWR",
+            "flyTo": "LHR",
+            "cityFrom": "New York",
+            "cityCodeFrom": "NYC",
+            "cityTo": "London",
+            "cityCodeTo": "LON",
+            "airline": "OS",
+            "flight_no": 7792,
+            "operating_carrier": "UA",
+            "operating_flight_no": "940",
+            "fare_basis": "KLP8FLGT",
+            "fare_category": "M",
+            "fare_classes": "K",
+            "fare_family": "",
+            "return": 1,
+            "bags_recheck_required": false,
+            "vi_connection": false,
+            "guarantee": false,
+            "last_seen": "2022-03-11T17:53:15.000Z",
+            "refresh_timestamp": "2022-03-11T17:53:15.000Z",
+            "equipment": null,
+            "vehicle_type": "aircraft",
+            "local_arrival": "2022-05-08T10:10:00.000Z",
+            "utc_arrival": "2022-05-08T09:10:00.000Z",
+            "local_departure": "2022-05-07T22:00:00.000Z",
+            "utc_departure": "2022-05-08T02:00:00.000Z"
+        }
+    ],
+    "booking_token": "D85iHtWdCYqxE3vesyqeL4WBuN-d4aa4q0y5pLAjD_-C9C-bs4K3NgUc2Cwtdk7uI_vx1ajCBZ-2WAOXmYGXdTMNk53lczvpdkFef5vHA30rkEmtMS-9Us1QUHtBAUqYJpIOLOG_Nsy_tFQDGHUdenjY-9xeRlPmo4dOE6mwTNKd6s8hvdDN922x-DT5tQMAXClxkoUixjKGxO2sAL77VLs12a8Rv7XtNeCvKo8xsrZdhtNx2AB17UgGT2UXv7NMJXkgF7CXZYKkaQoZYrXD4FPFpySTTP5e65_68QF71fsVuKUelpGUeEghzAO0jDlTSD96hhaj9ya91rtrx_FejzLwYED55boZUf28hViMb6IjIpq4b8cEoNe0abjAsJOeKbebCApK2WzuOyEAfheTy2ibCe-C3OetB1XtUbxjFL3VKoGAn_uVVXDNUO0egA8ke3PrhCp8LtzH7OrhBA2_PSUce_6E8qDSZTtdW8ecekro=",
+    "deep_link": "https://www.kiwi.com/deep?from=LHR&to=EWR&flightsId=0f641cdb4a984aaf816fc32c_0%7C0f641cdb4a984aaf816fc32c_1&price=502&passengers=1&affilid=mikestobrflightsearch&lang=en&currency=EUR&booking_token=D85iHtWdCYqxE3vesyqeL4WBuN-d4aa4q0y5pLAjD_-C9C-bs4K3NgUc2Cwtdk7uI_vx1ajCBZ-2WAOXmYGXdTMNk53lczvpdkFef5vHA30rkEmtMS-9Us1QUHtBAUqYJpIOLOG_Nsy_tFQDGHUdenjY-9xeRlPmo4dOE6mwTNKd6s8hvdDN922x-DT5tQMAXClxkoUixjKGxO2sAL77VLs12a8Rv7XtNeCvKo8xsrZdhtNx2AB17UgGT2UXv7NMJXkgF7CXZYKkaQoZYrXD4FPFpySTTP5e65_68QF71fsVuKUelpGUeEghzAO0jDlTSD96hhaj9ya91rtrx_FejzLwYED55boZUf28hViMb6IjIpq4b8cEoNe0abjAsJOeKbebCApK2WzuOyEAfheTy2ibCe-C3OetB1XtUbxjFL3VKoGAn_uVVXDNUO0egA8ke3PrhCp8LtzH7OrhBA2_PSUce_6E8qDSZTtdW8ecekro=",
+    "facilitated_booking_available": true,
+    "pnr_count": 1,
+    "has_airport_change": false,
+    "technical_stops": 0,
+    "throw_away_ticketing": false,
+    "hidden_city_ticketing": false,
+    "virtual_interlining": false,
+    "transfers": [],
+    "local_arrival": "2022-04-14T13:20:00.000Z",
+    "utc_arrival": "2022-04-14T17:20:00.000Z",
+    "local_departure": "2022-04-14T10:00:00.000Z",
+    "utc_departure": "2022-04-14T09:00:00.000Z"
+}
+
+ price departure_airport_code departure_city  departure_date  destination_airport_code destination_city return_flight_date
+    41                    STN          London      2022-04-28                      BER           Berlin         2022-05-18
+
